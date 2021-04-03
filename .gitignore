@@ -1,0 +1,8 @@
+# Folders
+.ipynb_checkpoints
+
+
+# Files
+TCA_new.ipynb
+TCA-MMD_test.ipynb
+*.mat
