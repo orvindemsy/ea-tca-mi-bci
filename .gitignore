@@ -1,9 +1,11 @@
 # Folders
 .ipynb_checkpoints
 __pycache__
-
+/img
+/_dev
 
 # Files
 TCA_new.ipynb
 TCA-MMD_test.ipynb
 *.mat
+readme_about_plot.txt
