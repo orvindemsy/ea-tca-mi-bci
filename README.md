@@ -11,13 +11,23 @@ Euclidean alignment (EA) is used as transfer learning technique in BCI preproces
 ### TCA dimension vs Accuracy
 <!-- ![ker-acc](/image/blog-tcadim-acc.png) -->
 <img src="/image/blog-tcadim-acc.png" width="500">
+The boldfaced numbers indicate highest accuracy in each method. The results suggest that for all methods, low dimensions (1 or 2) are unlikely to be a good representation of latent space between subjects, while higher dimensions (greater than 3) show better results. In the subsequent evaluation, TCA dimension of 4 is chosen.
+
 
 ### TCA and SVM Kernels vs Accuracy
 <!-- ![ker-acc](/image/blog-ker-acc.png) -->
 <img src="/image/blog-ker-acc.png" width="700">
+This evaluation is done only on the four methods that use TCA. It can be seen that for TCA and EA-TCA, both combinations of linear and radial basis function (rbf) kernel for TCA and SVM do not significantly affect accuracies. On the other hand, for TCA-W and EA-TCA-W, using rbf as SVM kernel can drop accuracies to approximately 50%.
 
 ### Number of Source Trials vs Accuracy
 <img src="/image/blog-src-acc.png" width="700">
+Results suggest that mean accuracy of each method is relatively stable after approximately greater than 30 source trials are used, which implies that even with few source trials, satisfactory classification accuracy can be achieved, especially for methods with EA
 
 ### Comparison of All Methods
 ![eval-all](/image/blog-eval-all.png)
+
+The results suggest that:
+- Conventional TCA and proposed TCA-W outperforms baseline be 3.23% and 4.23% respectively.
+- Applying EA to both TCA improves performance. EA-TCA outperforms TCA by 5.61% and EA-TCA-W outperforms TCA-W by 6.79%.
+- In general methods with EA generally performs better than those without EA.
+- Preliminary experiment shows that for 20 repititions, proposed TCA-W can speed up processing time by 52% compared to conventional TCA.
