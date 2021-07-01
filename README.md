@@ -9,14 +9,14 @@ Euclidean alignment (EA) is used as transfer learning technique in BCI preproces
 
 ## Result Overview
 ### TCA dimension vs Accuracy
-![ea-nonea](/image/blog-ea-nonea.png)
+![ker-acc](/image/blog-tcadim-acc.png)
 
 ### TCA and SVM Kernels vs Accuracy
-![ker-acc](/image/ker-acc.png)
+![ker-acc](/image/blog-ker-acc.png)
 
 ### Number of Source Trials vs Accuracy
-![src-acc](/image/src-acc.png)
+![src-acc](/image/blog-src-acc.png)
 
 
 ### Comparison of All Methods
-![eval-all](/image/eval-all.png)
+![eval-all](/image/blog-eval-all.png)
