@@ -39,6 +39,8 @@ def apply_EA(data, key_list):
         print('Found %d key(s) in which EEG data is stored' %len(key_list))
         all_trials = data[key_list[0]]
     
+    
+    # ===== Perform Euclidean Alignment ===== #
     # Calculate reference matrix
     RefEA = 0
     print('Computing reference matrix RefEA')
