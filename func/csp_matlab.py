@@ -3,7 +3,6 @@ import numpy as np
 
 def csp_feat_ver1(XtrainRaw, XtestRaw, ytr, n_filter=3):
     '''
-    This used to be named csp_feat_ver5
     Python implementation of MATLAB csp code, this time function will receive EEG trials raw data
     
     Parameter:
@@ -69,7 +68,6 @@ def csp_feat_ver1(XtrainRaw, XtestRaw, ytr, n_filter=3):
 
 def csp_feat_no_test(data, n_filter=3, filter_key = None, eeg_key='all_trials'):
     '''
-    This used to be named csp_feat_ver3
     Python implementation of MATLAB csp code, the original work is called TLBCI 
     This function is used to convert all trials into csp feature,
     Thus, there isn't splitting into train and test set in this function
