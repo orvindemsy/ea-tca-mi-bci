@@ -31,3 +31,7 @@ The results suggest that:
 - Applying EA to both TCA improves performance. EA-TCA outperforms TCA by 5.61% and EA-TCA-W outperforms TCA-W by 6.79%.
 - In general methods with EA generally performs better than those without EA.
 - Preliminary experiment shows that for 20 repititions, proposed TCA-W can speed up processing time by 52% compared to conventional TCA.
+
+## Publication
+Conference Proceedings for the 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+https://ieeexplore.ieee.org/document/9658731
